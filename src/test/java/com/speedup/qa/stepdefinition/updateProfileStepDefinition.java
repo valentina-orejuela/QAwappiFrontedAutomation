@@ -59,19 +59,13 @@ public class updateProfileStepDefinition {
         OnStage.theActorInTheSpotlight().attemptsTo(UpdateProfileBirth.withTheData(birth));
         Thread.sleep(1000);
         Select menu1 = new Select(myBrowser.findElement(MODIFY_COUNTRY));
-        String arg = "Argentina";
         String col = "Colombia";
-        String eua = "Estados Unidos";
-        if (arg.equals(country.getCountry())) {
+        if (col.equals(country.getCountry())) {
             menu1.selectByIndex(1);
-        } else if (col.equals(country.getCountry())) {
-            menu1.selectByIndex(2);
-        } else if (eua.equals(country.getCountry())) {
-            menu1.selectByIndex(3);
         }
         OnStage.theActorInTheSpotlight().attemptsTo(UpdateProfileSexo.withTheDataSex(sex));
         Thread.sleep(1000);
-        myBrowser.findElement(SELECT_PHOTO).sendKeys("C:\\Users\\drago\\OneDrive\\Escritorio\\unknown.png");
+        myBrowser.findElement(SELECT_PHOTO).sendKeys("C:\\Users\\valen\\Pictures\\prueba.png");
         Thread.sleep(1000);
         /*Faker faker = new Faker();
         String image = faker.company().logo();

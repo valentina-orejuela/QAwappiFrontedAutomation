@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Place an order" skipped="0" tests="1" time="6.34" timestamp="2022-09-13 01:37:23"><testcase name="Place an order"><error message="Index: 2, Size: 2" type="java.lang.IndexOutOfBoundsException">Index: 2, Size: 2</error><system-err>Index: 2, Size: 2&#13;
+com.speedup.qa.stepdefinition.updateProfileStepDefinition.loginWithUsernameAndPassword(updateProfileStepDefinition.java:45)&#13;
+✽.login with username and password(src/test/resources/features/placeOrder.feature:8)&#13;
+</system-err></testcase></testsuite>

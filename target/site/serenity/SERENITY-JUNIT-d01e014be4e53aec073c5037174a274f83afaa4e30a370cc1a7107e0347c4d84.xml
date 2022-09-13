@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Complete route" skipped="0" tests="2" time="6.33" timestamp="2022-09-12 02:40:10"><testcase name="Update profile"><error message="Index: 3, Size: 2" type="java.lang.IndexOutOfBoundsException">Index: 3, Size: 2</error><system-err>Index: 3, Size: 2&#13;
-com.speedup.qa.stepdefinition.updateProfileStepDefinition.loginWithUsernameAndPassword(updateProfileStepDefinition.java:45)&#13;
-✽.login with username and password(src/test/resources/features/fullRouter.feature:11)&#13;
-</system-err></testcase></testsuite>
